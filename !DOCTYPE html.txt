@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Portfolio - susospina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .project {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>My R Portfolio</header>
+    <div class="container">
+        <h2>📊 Featured Projects</h2>
+        <div class="project">
+            <h3>Data Visualization</h3>
+            <p><a href="./data_visualization/fojadoras_de_nitrogeno.R">📌 Fijadoras de Nitrógeno</a></p>
+            <p><a href="./data_visualization/mohos_y_levaduras.R">📈 Mohos y Levaduras</a></p>
+        </div>
+        <div class="project">
+            <h3>Machine Learning</h3>
+            <p><a href="./machine_learning/regression_model.R">🤖 Regression Model</a></p>
+            <p><a href="./machine_learning/classification_script.R">🔬 Classification Analysis</a></p>
+        </div>
+        <div class="project">
+            <h3>Clustering & Statistical Analysis</h3>
+            <p><a href="./clustering/clustering_script.R">📌 Clustering Analysis</a></p>
+            <p><a href="./stats/heatmap_analysis.R">📈 Statistical Heatmap</a></p>
+        </div>
+        <div class="project">
+            <h3>Automation & Scripting</h3>
+            <p><a href="./automation/csv_cleaner.R">🗂️ Data Cleaning Script</a></p>
+            <p><a href="./automation/batch_processing.R">🔄 Batch Processing Script</a></p>
+        </div>
+        <h2>📬 Contact</h2>
+        <p>Email: <a href="mailto:susospina2413@gmail.com">susospina2413@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/susospina">github.com/susospina</a></p>
+    </div>
+    <footer>
+        &copy; 2024 susospina | R Portfolio
+    </footer>
+</body>
+</html>
