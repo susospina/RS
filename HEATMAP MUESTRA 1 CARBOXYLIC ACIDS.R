@@ -95,3 +95,5 @@ pheatmap(
   cellheight = 30,
   border_color = NA
 )
+# Save heatmap to a PNG file
+png("heatmap_metabolites.png", width = 800, height = 600)
