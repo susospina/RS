@@ -1,3 +1,47 @@
+# Heatmap of Metabolite Concentrations in Soil Samples
+
+This project visualizes microbial metabolite changes over time in a soil sample using a heatmap created with R. The data represents the concentration of several key organic acids measured at 24, 48, and 72 hours.
+
+## 🧪 Description
+
+As part of an internship project on microbial behavior in soil, this analysis focuses on the production of compounds like Itaconic Acid, GABA, and Malic Acid under laboratory conditions. The data was visualized using the `pheatmap` package in R to highlight trends across time.
+
+## 📊 Data Overview
+
+- **Time Points:** 24h, 48h, 72h  
+- **Sample Type:** Soil (10 cm depth, Lote 16)  
+- **Compounds Analyzed:**
+  - D-Galactonic Acid γ-Lactone  
+  - D-Galacturonic Acid  
+  - 2-Hydroxy Benzoic Acid  
+  - 4-Hydroxy Benzoic Acid  
+  - γ-Amino Butyric Acid (GABA)  
+  - Itaconic Acid  
+  - α-Keto Butyric Acid  
+  - D-Malic Acid
+
+## 📂 Files
+
+- `heatmap_metabolites.R`: R script to generate the heatmap
+- `output/`: Folder to store the generated heatmap image (optional)
+
+## 📈 Visualization
+
+The heatmap clusters are disabled to retain direct comparison across time. The resulting graphic helps visualize how compound concentrations evolve and supports interpretation of microbial metabolic activity.
+
+## 📦 Tools & Libraries
+
+- `R`
+- `pheatmap`
+
+## 📍 Output
+
+The script produces a clear heatmap with labeled rows (compounds) and columns (time points) to be used in microbial ecology reports or scientific presentations.
+
+---
+
+Feel free to clone or adapt this script for similar metabolite or time-series visualizations.
+
 # Load the pheatmap package
 library(pheatmap)
 
